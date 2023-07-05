@@ -2,7 +2,9 @@ package com.hostfully.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import io.swagger.v3.oas.annotations.media.Schema;
+import org.springframework.format.annotation.DateTimeFormat;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
@@ -17,11 +19,18 @@ public record BookingDto(
         @Schema(description = "The unit ID to book the time.")
         UUID unitId,
 
-        @Schema(description = "The booking start date")
-        LocalDateTime startTime,
+        @Schema(description = "The id of Host user.")
+        UUID hostId,
+
+        @Schema(description = "The id of Guest user.")
+        UUID guestId,
+
+        @DateTimeFormat(pattern = "yyyy-MM-dd")
+        LocalDate startTime,
 
         @Schema(description = "The booking end date")
-        LocalDateTime endTime,
+        @DateTimeFormat(pattern = "yyyy-MM-dd")
+        LocalDate endTime,
 
         @Schema(description = "The total number of night of the booking")
         int totalNights,

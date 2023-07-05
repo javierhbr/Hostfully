@@ -17,31 +17,37 @@ INSERT INTO units (id, name) VALUES ('1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', 'Wa
 
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('ee30de22-29f6-4bc2-a7c1-26123628d8ff', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-17 10:00:00', '2023-06-18 10:00:00', 1, '2023-06-17 08:00:00', '2023-06-17 08:00:00');
+VALUES ('ee30de22-29f6-4bc2-a7c1-26123628d8ff', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-17', '2023-06-18', 1, '2023-06-17 08:00:00', '2023-06-17 08:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('2a4a1e9e-d5c6-4a2c-b4bc-52e3b1ebe8ab', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-18 12:00:00', '2023-06-20 12:00:00', 2, '2023-06-18 10:00:00', '2023-06-18 10:00:00');
+VALUES ('2a4a1e9e-d5c6-4a2c-b4bc-52e3b1ebe8ab', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-18', '2023-06-20', 2, '2023-06-18 10:00:00', '2023-06-18 10:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('f8d6d5ef-27c0-4d8f-bff9-75b6b57052d3', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-20 15:00:00', '2023-06-25 15:00:00', 5, '2023-06-20 13:00:00', '2023-06-20 13:00:00');
+VALUES ('f8d6d5ef-27c0-4d8f-bff9-75b6b57052d3', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-20', '2023-06-25', 5, '2023-06-20 13:00:00', '2023-06-20 13:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('ef8008df-18c2-487b-b6c1-2e6d94419784', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-22 09:00:00', '2023-06-24 09:00:00', 2, '2023-06-21 20:00:00', '2023-06-21 20:00:00');
+VALUES ('ef8008df-18c2-487b-b6c1-2e6d94419784', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-22', '2023-06-24', 2, '2023-06-21 20:00:00', '2023-06-21 20:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('6148d64d-2272-4c71-b3e4-3bbcffa87007', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-25 14:00:00', '2023-06-27 14:00:00', 2, '2023-06-24 12:00:00', '2023-06-24 12:00:00');
+VALUES ('6148d64d-2272-4c71-b3e4-3bbcffa87007', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-06-25', '2023-06-27', 2, '2023-06-24 12:00:00', '2023-06-24 12:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('0de90b77-dfb6-4c17-8baf-44b6f93dd5e3', 'b8b641f0-35db-480d-bc4f-4e92840c218a', '2023-06-27 10:00:00', '2023-06-30 10:00:00', 3, '2023-06-26 18:00:00', '2023-06-26 18:00:00');
+VALUES ('0de90b77-dfb6-4c17-8baf-44b6f93dd5e3', 'b8b641f0-35db-480d-bc4f-4e92840c218a', '2023-06-27', '2023-06-30', 3, '2023-06-26 18:00:00', '2023-06-26 18:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('c6cde5f3-15d4-4c18-a91a-1e4b2fe36c2d', 'b8b641f0-35db-480d-bc4f-4e92840c218a', '2023-06-29 12:00:00', '2023-07-03 12:00:00', 4, '2023-06-28 10:00:00', '2023-06-28 10:00:00');
+VALUES ('c6cde5f3-15d4-4c18-a91a-1e4b2fe36c2d', 'b8b641f0-35db-480d-bc4f-4e92840c218a', '2023-06-29', '2023-07-03', 4, '2023-06-28 10:00:00', '2023-06-28 10:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('137d4a70-4a83-4124-94db-9bc3d4c51fa5', '7a3e9eab-0b95-4b85-b305-7a97c64b5720', '2023-07-02 09:00:00', '2023-07-07 09:00:00', 5, '2023-07-01 20:00:00', '2023-07-01 20:00:00');
+VALUES ('137d4a70-4a83-4124-94db-9bc3d4c51fa5', '7a3e9eab-0b95-4b85-b305-7a97c64b5720', '2023-07-02', '2023-07-07', 5, '2023-07-01 20:00:00', '2023-07-01 20:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('3b8d4f1e-4e9b-4875-86e2-58e49240b32b', '7a3e9eab-0b95-4b85-b305-7a97c64b5720', '2023-07-05 14:00:00', '2023-07-10 14:00:00', 5, '2023-07-04 12:00:00', '2023-07-04 12:00:00');
+VALUES ('3b8d4f1e-4e9b-4875-86e2-58e49240b32b', '7a3e9eab-0b95-4b85-b305-7a97c64b5720', '2023-07-05', '2023-07-10', 5, '2023-07-04 12:00:00', '2023-07-04 12:00:00');
 
 INSERT INTO bookings (id, unit_id, start_time, end_time, total_nights, created_at, updated_at)
-VALUES ('d2c1848e-5c92-4d0b-83a7-6d8e1e1e6aeb', '7a3e9eab-0b95-4b85-b305-7a97c64b5720', '2023-07-08 10:00:00', '2023-07-12 10:00:00', 4, '2023-07-07 18:00:00', '2023-07-07 18:00:00');
+VALUES ('d2c1848e-5c92-4d0b-83a7-6d8e1e1e6aeb', '7a3e9eab-0b95-4b85-b305-7a97c64b5720', '2023-07-08', '2023-07-12', 4, '2023-07-07 18:00:00', '2023-07-07 18:00:00');
+
+
+INSERT INTO unit_block_times (id, unit_id, start_time, end_time, reason, block_status, updated_at)
+    VALUES ('ed62c458-dee1-4dc2-a496-1e0e0a3b48bf', '1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-09-17', '2023-09-18', 'A/C maintenance', 'ACTIVE', '2023-06-17 08:00:00');
+INSERT INTO unit_block_times (id, unit_id, start_time, end_time, reason, block_status, updated_at)
+    VALUES ( '15a954a3-efce-4f08-a5f1-88f90d5b7b5c','1c3a31d2-bb01-4ad4-8a78-7737c0abca7f', '2023-08-17', '2023-08-18', 'A/C maintenance', 'ACTIVE', '2023-06-17 08:00:00');

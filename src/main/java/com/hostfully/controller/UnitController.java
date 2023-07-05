@@ -4,10 +4,12 @@ import com.hostfully.dto.UnitDto;
 import com.hostfully.services.UnitService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/unit")
@@ -20,8 +22,14 @@ public class UnitController implements UnitOpenApi {
         this.unitService = unitService;
     }
 
-    @GetMapping
+    @GetMapping()
     public List<UnitDto> getUnits() {
         return this.unitService.getAllUnit();
     }
+
+    @GetMapping("/{unitId}")
+    public UnitDto getUnitById(@PathVariable("unitId") final UUID unitId) {
+        return this.unitService.getUnitById(unitId);
+    }
+
 }
