@@ -32,7 +32,7 @@ Password= Empty, no password
 - I create a repository for Units and UnitBlockTimes, but should be replaced with a call to the units/property domain service
 - I use a Custom exception `BookingException` to throw any logic error. Which return a 409 http status.
 - I haven't time to add full test coverage, but you can see the `BookingServiceTest` with cover the most relevant logic 
-
+- I thought to add more SOLID principles and patterns, but the code could look over-engineer rather than simple.
 
 #### Mandatory endpoints:
 ##### - Create a booking
